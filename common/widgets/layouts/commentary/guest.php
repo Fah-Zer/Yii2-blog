@@ -1,0 +1,1 @@
+<p class="text">Guest cannot send commentaries</p>

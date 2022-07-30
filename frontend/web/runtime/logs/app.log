@@ -1,0 +1,81 @@
+2022-07-25 14:25:13 [::1][-][049jcaala9fn5rm3i5iidcq86p][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: D:\programs\XAMPP\htdocs\final\frontend\web\views\article\index.php in D:\programs\XAMPP\htdocs\final\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 D:\programs\XAMPP\htdocs\final\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\programs\\XAM...', Array, Object(frontend\controllers\ArticleController))
+#1 D:\programs\XAMPP\htdocs\final\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(frontend\controllers\ArticleController))
+#2 D:\programs\XAMPP\htdocs\final\frontend\controllers\ArticleController.php(12): yii\base\Controller->render('index')
+#3 [internal function]: frontend\controllers\ArticleController->actionIndex()
+#4 D:\programs\XAMPP\htdocs\final\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\programs\XAMPP\htdocs\final\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 D:\programs\XAMPP\htdocs\final\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#7 D:\programs\XAMPP\htdocs\final\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#8 D:\programs\XAMPP\htdocs\final\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\programs\XAMPP\htdocs\final\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2022-07-25 14:25:13 [::1][-][049jcaala9fn5rm3i5iidcq86p][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '7f5ee431e2ab97026cb5ecfb28a01fd642d495a59dae58a9ecce13edb79d029ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"awm5GCdiJYSE-_ZMK7mUyjK3iLYM0_LR\";}'
+    'advanced-frontend' => '049jcaala9fn5rm3i5iidcq86p'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/programs/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/programs/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\" Not;A Brand\";v=\"99\", \"Microsoft Edge\";v=\"103\", \"Chromium\";v=\"103\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/final/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7'
+    'HTTP_COOKIE' => '_csrf-frontend=7f5ee431e2ab97026cb5ecfb28a01fd642d495a59dae58a9ecce13edb79d029ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22awm5GCdiJYSE-_ZMK7mUyjK3iLYM0_LR%22%3B%7D; advanced-frontend=049jcaala9fn5rm3i5iidcq86p'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\programs\\Git\\cmd;D:\\programs\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\programs\\NodeJS\\;C:\\Users\\Столяр\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\programs\\Microsoft VS Code\\bin;C:\\Users\\Столяр\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Столяр\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/programs/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/programs/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/programs/XAMPP/htdocs/final/frontend/web/index.php'
+    'REMOTE_PORT' => '50808'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/final/frontend/web/'
+    'SCRIPT_NAME' => '/final/frontend/web/index.php'
+    'PHP_SELF' => '/final/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658751913.7727
+    'REQUEST_TIME' => 1658751913
+]
